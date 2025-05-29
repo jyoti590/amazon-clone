@@ -1,0 +1,40 @@
+.header{
+ display:flex;
+ align-items: center;
+ justify-content:space-between;
+ background-color: black;
+ color: white;
+ 
+}
+.navcontainer{
+   display:flex;
+   justify-content: center;
+   gap: 35px;
+   align-items: center;
+   font-size: large;
+ 
+  
+}
+#logo{
+  height: 80px;
+  width: 80px;
+}
+
+/*card css*/
+
+#div1{
+    
+     height: 450px;
+     width: 400px;
+    border: 2px solid black;
+    margin: 3px;
+}
+#div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5px;
+}
+.section1{
+  line-height: 0%;
+  text-decoration: underline; 
+}

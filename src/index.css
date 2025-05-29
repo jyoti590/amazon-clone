@@ -1,0 +1,7 @@
+.card{
+      display: flex;
+     justify-items: flex-start;
+  column-gap: 20px; 
+  border: 2px solid red;
+
+}
